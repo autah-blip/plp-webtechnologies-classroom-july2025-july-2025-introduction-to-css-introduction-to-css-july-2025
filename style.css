@@ -1,0 +1,89 @@
+/* === General Page Styles === */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* === Header & Navigation === */
+.header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.nav {
+    margin-top: 10px;
+}
+
+.nav a {
+    color: white;
+    margin: 0 12px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+/* === Container === */
+.container {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 10px;
+}
+
+/* === Card Sections (Box Model Demonstration) === */
+.card {
+    background-color: #fff;
+    border: 3px solid #0077cc;
+    border-radius: 10px;
+    margin: 20px 0;           /* Margin = space outside */
+    padding: 20px;            /* Padding = space inside */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+    color: #0077cc;
+    margin-bottom: 10px;
+}
+
+.card p {
+    margin-bottom: 15px;
+}
+
+/* === Image Card === */
+.image-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #ddd;
+}
+
+/* === Buttons === */
+.btn {
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #005fa3;
+}
+
+/* === Footer === */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
